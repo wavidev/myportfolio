@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Truculenta";
+  src: url(./assets/fonts/Truculenta-Regular.ttf);
+}
+@font-face {
+  font-family: "Truculenta-ExtraBold";
+  src: url(./assets/fonts/Truculenta-ExtraBold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Truculenta";
+  background-color: #1f2335;
+  color: #d9ddf8;
+  display: flex;
+  justify-content: center;
+}
+
+.contentFull {
+  width: 80%;
+  max-width: 80vw;
+  padding: 0 20px;
+  border: solid 1px red;
+}
