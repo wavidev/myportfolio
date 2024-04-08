@@ -1,37 +1,39 @@
+*{
+  border-radius: 10px;
+}
 .cardProject {
-  width: 40rem;
+  width: 30rem;
   backdrop-filter: blur(20px);
-  border-radius: 20px;
   text-align: center;
-  padding: 2rem 0 0 0;
+  padding: 2rem 0 1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: -1px -1px 45px -25px;
+  box-shadow: 0 0 20px -5px;
 }
 .cardImg {
-  width: 90%;
+  width: 80%;
   position: relative;
 }
 .cardTitle {
   font-family: "Truculenta-ExtraBold";
   position: relative;
   margin-top: -30px;
-  font-size: 40px;
+  font-size: 2rem;
   width: 15rem;
   text-align: center;
   color: #1f2335;
   background-color: aliceblue;
   border: solid 2px aliceblue;
-  border-radius: 20px;
 }
 .cardDescription {
-  width: 86%;
-  max-height: 4rem;
+  width: 76%; 
+  padding-left: 2px;
+  padding-bottom: 5px;
   font-weight: 600;
-  margin-top: 40px;
-  font-size: 1.8rem;
+  margin-top: 25px;
+  font-size: 1.5rem;
   text-align: left;
   line-height: 1.7rem;
   overflow: hidden;
@@ -42,28 +44,27 @@
 }
 
 .cardLink {
-  background-color: aliceblue;
-  font-size: 2rem;
-  width: 12rem;
-  display: flex;
-  justify-content: space-around;
-  margin: 40px 0 20px 0;
-  position: relative;
-  margin-right: -22rem;
-  border-radius: 20px;
-  padding: 0 20px;
+ 
+  font-size: 1.2rem;
+  width: 9rem;
+  margin: 20px;
+  margin-right: -45%;
 }
 .cardLink > a {
   text-decoration: none;
+  padding: 0 10px;  
+  background-color: aliceblue;
   color: #1f2335;
   font-family: "truculenta-ExtraBold";
 }
 
 .cardLink > a:nth-child(1) {
-  padding-right: 15px;
-  border-right: solid 10px #1f2335;
+  border-radius: 20px 0 0 0;
+  margin-right: 15px;
+  border-right: solid 0px #1f2335;
 }
 .cardLink > a:nth-child(2) {
-  padding-left: 15px;
+  border-radius: 0 20px 0 0 ;
+  margin-left: 15px;
   border-left: solid 10px #1f2335;
 }
